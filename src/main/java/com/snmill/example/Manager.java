@@ -17,6 +17,6 @@ public class Manager {
     @RequestMapping("/manager/name")
     @ResponseBody
     String name() {
-        return "Hello World " + name;
+        return name;
     }
 }
